@@ -55,7 +55,7 @@ file(GLOB headers "src/*.h")
 file(GLOB sources "src/*.cpp")
 
 add_library(${PROJECT_NAME} SHARED ${include} ${headers} ${sources})
-
+target_compile_definitions(${PROJECT_NAME} PRIVATE DBCPPP_EXPORT)
 
 # CONFIGURE LIBRARY
 

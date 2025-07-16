@@ -9,7 +9,7 @@
 
 namespace dbcppp
 {
-    class ISignalType
+    class DBCPPP_API ISignalType
     {
     public:
         static std::unique_ptr<ISignalType> Create(

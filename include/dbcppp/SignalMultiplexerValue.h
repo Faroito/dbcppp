@@ -8,11 +8,12 @@
 #include <functional>
 #include <cstdint>
 
+#include "Export.h"
 #include "Iterator.h"
 
 namespace dbcppp
 {
-    class ISignalMultiplexerValue
+    class DBCPPP_API ISignalMultiplexerValue
     {
     public:
         struct Range
