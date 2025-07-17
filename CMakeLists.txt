@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project("dbcppp" VERSION 3.8.0)
+project("dbcppp" VERSION 3.2.6)
 
 # CONFIGURATION
 
